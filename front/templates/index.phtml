@@ -1,0 +1,110 @@
+<!-- Banner -->
+<div class="container">
+	<div class="pull-right span12" id="ctm_banner">
+		<img style="width:100%;" class="" src="/img/banner.jpg" />
+	</div>
+</div>
+<!-- Sub Navigation Bar -->
+<div class="navbar ctm_sec_navbar" id="">
+	<div class="navbar-inner ctm_sec_navbar">
+		<ul class="nav">
+			<li><a href="#">World for every fashionista</a></li>
+		</ul>
+		<ul class="nav pull-right">
+			<li><a><strong>Follow:</strong></a></li>
+			<li><a href="https://www.facebook.com/WearTo.Inspire.II" target="_blank">
+				<span class="ctm_fb_share"><img src="/img/fb.png" /></span>
+				</a>
+			</li>
+			<li><a href="#contact"><span class="ctm_fb_share"><img src="/img/twitter.png" /></span></a>
+			</li>
+			<li><a href="#contact"><span class="ctm_fb_share"><img src="/img/google_plus.png" /></span>		</a>
+			</li>
+			<li><a href="http://www.instagram.com/wear2inspire" target="_blank"><span class="ctm_fb_share"><img src="/img/instagram.png" /></span>		</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- Contents -->
+<div class="row">
+	<!-- Main Contents -->
+	<div class="span9" id="ctm_home_content">
+		<!-- Slider -->
+		<div id="myCarousel" class="carousel slide">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class=""></li>
+				<li data-target="#myCarousel" data-slide-to="1" class=""></li>
+				<li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item">
+					<img src="/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
+					<div class="carousel-caption">
+						<h4>First Thumbnail label</h4>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
+					<div class="carousel-caption">
+						<h4>Second Thumbnail label</h4>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+					</div>
+				</div>
+				<div class="item active">
+					<img src="/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
+					<div class="carousel-caption">
+						<h4>Third Thumbnail label</h4>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+					</div>
+				</div>
+			</div>
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+		</div><!-- End of Slider -->
+		<hr class="span3">
+		<div class="text-center span2">What's New?</div>
+		<hr class="span3">
+		<!-- Products -->
+		<div class="span9">
+			<div class="row">
+            <ul class="thumbnails">
+              <?php echo $products ?>
+            </ul>
+          	</div>
+		</div>
+	</div><!-- End of Main Contents -->
+	<!-- Sidebar Right -->
+	<div class="span3">
+		<div class="ctm_social_media">
+			<div class="text-center" style="margin-top:8px"><i class="icon-bookmark"></i>Contact Info
+				<hr style="margin-top:5px"/>
+				<img src="/img/mail.png">
+				<br>
+				wear2_inspire@yahoo.com
+				<br>
+				<br>
+				<a href="#"><img src="/img/comment.png"></a>
+				<br>
+				<small>Send to admin</small>
+				<br>
+				<br>
+				<img src="/img/smart_phone.png">
+				<br>
+				<small>Smart</small>
+				<br>
+				<strong>09391453047</strong>
+				<br>
+				<small>Globe</small>
+				<br>
+				<strong>09167447437</strong>
+			</div>
+		</div>
+		<div class="ctm_ads" class="text-center">
+			<img width="100%" src="/img/ads.jpg">
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+document.getElementById('nav_home').className='active';
+</script>

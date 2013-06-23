@@ -1,0 +1,44 @@
+<br><br><br>
+
+<div class="container">
+  <div class="row">
+  	<div class="tabbable tabs-left">
+  	  <ul class="nav nav-tabs span3">
+  	    <li id="nav_tab_all" class="active"><a href="#tab_all" data-toggle="tab">All Products</a></li>
+      	<li id="nav_tab_dresses"><a href="#tab_dresses" data-toggle="tab">Dresses</a></li>
+      	<li id="nav_tab_shoes"><a href="#tab_shoes" data-toggle="tab">Shoes</a></li>
+      	<li id="nav_tab_bags"><a href="#tab_bags" data-toggle="tab">Bags</a></li>
+      	<li id="nav_tab_acc"><a href="#tab_acc" data-toggle="tab">Accessories</a></li>
+  	  </ul>
+  	  <div class="tab-content span9">
+  	    <div class="tab-pane active" id="tab_all">
+          <ul class="thumbnails">
+            <?php echo $prodall; ?>
+          </ul>
+  	    </div>
+  	    <div class="tab-pane" id="tab_dresses">
+  	      <ul class="thumbnails">
+            <?php echo $proddresses; ?>
+          </ul>
+  	    </div>
+  	    <div class="tab-pane" id="tab_shoes">
+  	      <ul class="thumbnails">
+            <?php echo $prodshoes; ?>
+          </ul>
+  	    </div>
+  	    <div class="tab-pane" id="tab_bags">
+  	      <ul class="thumbnails">
+            <?php echo $prodbags; ?>
+          </ul>
+  	    </div>
+  	    <div class="tab-pane" id="tab_acc">
+  	      <ul class="thumbnails">
+            <?php echo $prodacc; ?>
+          </ul>
+  	    </div>
+  	  </div>
+  	</div>
+  </div>
+</div>
+<?php echo $activeCat; ?>
+<br><br><br>
